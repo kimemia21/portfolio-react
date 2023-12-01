@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&family=Roboto:wght@100;400&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+A&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap');
+
+
+
+@media (max-width: 768px) {
+  .main {
+    width: 95%; /* Adjust width for smaller screens */
+    max-width: none; 
+    flex: 1 ,100%;
+    /* Remove the maximum width constraint */
+  }
+}
+/* css for top section */
+
+.top {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: rgb(245, 245, 245);
+  width: 100vw;
+  height: fit-content;
+}
+
+.info-top {
+  width: 40%;
+  padding-left: 10rem;
+
+}
+
+.info-top>h3 {
+  font-size: 20px;
+  font-family: 'Geologica', sans-serif;
+
+
+
+
+}
+
+.info-top>h1 {
+  font-size: 46px;
+  font-weight: bold;
+  font-family: 'Geologica', sans-serif;
+
+
+}
+
+.typed {
+  font-family: 'Noto Sans Linear A', sans-serif;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+
+
+
+}
+
+.p-typed {
+  font-family: 'Mukta Malar', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.info-top>p {
+  font-family: 'Mukta Malar', sans-serif;
+}
+
+
+.img-top {
+  width: 60%;
+  height: fit-content
+}
+
+.about-middle {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(234, 237, 242, 255);
+
+}
+
+.top-links {
+  display: flex;
+  width: 20%;
+  justify-content: left;
+
+}
+
+
+
+.top-links>a>button {
+  font-family: 'Mukta Malar', sans-serif;
+  margin-right: 10px;
+  width: 7rem;
+  height: 3rem;
+  background-color: #e0842c;
+  color: white;
+
+}
+
+
+.top-links>a>button:hover {
+  border: #e0842c;
+  background-color: black;
+
+  color: white;
+}
+
+/* end of css for top section */
+
+/* about me section  */
+.about-middle {
+  padding:15px;
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+  height: fit-content;
+
+
+
+  
+}
+
+.about-left {
+  width: 40%;
+  align-items: center;
+  padding-top: 5%;
+  padding-left: 20rem;
+
+
+}
+
+.about-left>h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Geologica', sans-serif;
+}
+
+.about-left>p{
+  font-size: 20px;
+  word-spacing: 1px;
+  font-family: 'Rokkitt', serif;
+ 
+}
+
+
+.about-left>img{
+  width: 30rem;
+  height: 77%;
+  border: 10px solid white;
+
+  border-radius: 12px;
+
+}
+.about-right{
+  padding-top:10%;
+  padding-right: 15%;
+  width: 50%;
+  margin-left: 10rem;
+  
+}
+.about-right>h1{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Geologica', sans-serif;
+
+}
+.about-right>h4>strong{
+  color: #e0842c;
+}
+
+.about-left-details{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-details{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+ 
+  
+
+
+  
+ 
+}
+.left-details>span{
+  
+  border-right: 1px solid grey;
+  height: 25px;
+  text-align: right;
+  font-family: 'Mukta Malar', sans-serif;
+  font-size: 18px;
+
+
+}
+
+.left-details>p{
+  font-size: 20px;
+  word-spacing: 1px;
+  font-family: 'Rokkitt', serif;
+}
+
+/* end of about me section */
