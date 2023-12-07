@@ -31,7 +31,7 @@ function Top() {
         <div className='top'>
         <div className='info-top'>          
           <h3>Hello there...</h3>
-          <h1 >Kimemia Thuku </h1>
+          <h1 >User </h1>
           <p  className='p-typed'> I Am Passionate  <span className="typed"></span></p>
           <p>As a junior software developer, I am passionate about crafting efficient and elegant solutions to complex problems, continuously expanding my skills to contribute meaningfully to innovative projects.</p>
           

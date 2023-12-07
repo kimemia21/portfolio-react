@@ -2,16 +2,16 @@ import React from 'react';
 
 function About(props) {
     return (
-        <div className='about-middle'>
-            <div className='about-left'>
+        <div className='about-middle w-auto p-3'>
+            <div className='about-left w-35 p-3'>
                 <h1>ABOUT ME</h1>
-                <p>Kimemia is a juniour  software developer Based in Kenya</p>
+                <p>User is a juniour  software developer Based in Kenya</p>
                 <img src='https://static.vecteezy.com/system/resources/previews/022/665/512/original/enthusiastic-3d-student-boy-with-thumbs-up-on-white-background-transparent-background-free-png.png'  />
 
 
             </div>
-            <div className='about-right'>
-                <h1>I,m Kimemia Thuku</h1>
+            <div className='about-right w-65 p-34'>
+                <h1>I,m User</h1>
                 <h4>A Lead <strong>Fullstack</strong> software engineer based in <strong>Kenya</strong>.</h4>
 
                 <p>
