@@ -3,6 +3,7 @@ import React from 'react';
 function About(props) {
     return (
         <div className='about-middle w-100 p-3'>
+            
             <div className='about-left w-35 p-3'>
                 <h1>ABOUT ME</h1>
                 <p>User is a juniour  software developer Based in Kenya</p>
