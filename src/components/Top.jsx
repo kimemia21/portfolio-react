@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Typed from "typed.js"
 import "../App.css"
+import { motion } from "framer-motion";
 function Top() {
 
    
@@ -28,7 +29,13 @@ function Top() {
 
     
     return (
-        <div className='top'>
+        <motion.div className='top'
+        animate={{
+          rotate:360
+          
+        }}
+        
+        >
         <div className='info-top'>          
           <h3>Hello there...</h3>
           <h1 >User </h1>
@@ -43,7 +50,7 @@ function Top() {
         
           
             <a href=''>
-            <button className='btn'>My Work</button>
+          <button className='btn'>My Work</button>~
             </a>
           
           </div>
@@ -51,11 +58,11 @@ function Top() {
           
           </div>
           <div className='img-top'>
-            <img src='https://static.vecteezy.com/system/resources/previews/022/484/140/non_2x/qualified-3d-electrician-with-cable-splicer-great-for-electrical-or-industrial-designs-transparent-background-free-png.png'/>
+            <img className=' img-fluid w-50' src='https://static.vecteezy.com/system/resources/previews/022/484/140/non_2x/qualified-3d-electrician-with-cable-splicer-great-for-electrical-or-industrial-designs-transparent-background-free-png.png'/>
           </div>
           
 
-          </div>
+          </motion.div>
           )
 
 

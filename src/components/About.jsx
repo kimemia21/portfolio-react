@@ -2,11 +2,11 @@ import React from 'react';
 
 function About(props) {
     return (
-        <div className='about-middle w-auto p-3'>
+        <div className='about-middle w-100 p-3'>
             <div className='about-left w-35 p-3'>
                 <h1>ABOUT ME</h1>
                 <p>User is a juniour  software developer Based in Kenya</p>
-                <img src='https://static.vecteezy.com/system/resources/previews/022/665/512/original/enthusiastic-3d-student-boy-with-thumbs-up-on-white-background-transparent-background-free-png.png'  />
+                <img  className='img-fluid w-50' src='https://static.vecteezy.com/system/resources/previews/022/665/512/original/enthusiastic-3d-student-boy-with-thumbs-up-on-white-background-transparent-background-free-png.png'  />
 
 
             </div>
@@ -19,7 +19,7 @@ function About(props) {
                  My passion is to design digital user experiences through the bold interface and meaningful interactions.
                 </p>
 
-                <div className='about-left-details'>
+                {/* <div className='about-left-details'>
                    <div className='left-details'>
                     <span>Birthday</span>
                     <p>4th April 2001</p>
@@ -33,10 +33,10 @@ function About(props) {
                    
 
                 
-                </div>
+                </div> */}
 
 
-                <div className='about-left-details'>
+                {/* <div className='about-left-details'>
                    <div className='left-details'>
                     <span>Age</span>
                     <p>22 Yr</p>
@@ -45,18 +45,18 @@ function About(props) {
                    <div className='left-details'>
                     <span>Phone</span>
                     <p>+254-769-922-984</p>
-                   </div>
+                   </div> */}
 
                    
 
                 
-                </div>
+                {/* </div> */}
 
 
 
+                {/* <div className='about-left-details'></div>
                 <div className='about-left-details'></div>
-                <div className='about-left-details'></div>
-                <div className='about-left-details'></div>
+                <div className='about-left-details'></div> */}
 
               
 

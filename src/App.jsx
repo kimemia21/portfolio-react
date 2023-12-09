@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Top from './components/Top'
 import About from './components/About'
+import MySkills from './components/MySkills'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <div className='main'>
       <Top/>
       <About/>
+      <MySkills/>
      
         
     </div>
