@@ -14,7 +14,7 @@ function MySkills(props) {
                 <p>Here is my skills to represent my Expertise</p>
               </div>
 
-              <div className="skills_main">
+              <div className="skills_mai">
                 <div className="skill_bar">
                   <div className="info">
                     <p>HTML</p>
